@@ -6,6 +6,7 @@ exports.run = async (client, message, args) => {
 	exec(settings.start, (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
+			message.channel.send( " Error! Please message Owner. ")
 			return;
 		}
 		if (stderr) {
