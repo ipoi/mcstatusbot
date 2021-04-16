@@ -6,7 +6,7 @@ exports.run = async (settings, client, message, args) => {
              const helpEmbed = new Discord.RichEmbed()
                              .setTitle('Commands:')
                              .setColor(embedColor)
-                             .setDescription('**/status** - The current status and player count of your server \n**/crash** - Restart the bot')
+                             .setDescription('**/status** - The current status and player count of your server \n**/crash** - Restart the bot \n** /start - starts the server')
                          message.channel.send(helpEmbed);
              return;
 }
