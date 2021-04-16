@@ -5,4 +5,5 @@
     "port":25565,
     "pingInterval":"30",
     "embedColor":"7289DA"
+    "start":"YOUR START SERVER COMMAND(S) HERE"
 }
